@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A027D683226507EC00C81746 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A027D682226507EC00C81746 /* AppDelegate.swift */; };
+		A027D685226507EC00C81746 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A027D684226507EC00C81746 /* ViewController.swift */; };
+		A027D688226507EC00C81746 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A027D686226507EC00C81746 /* Main.storyboard */; };
+		A027D68A226507EF00C81746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A027D689226507EF00C81746 /* Assets.xcassets */; };
+		A027D68D226507EF00C81746 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A027D68B226507EF00C81746 /* LaunchScreen.storyboard */; };
+		A027D698226507EF00C81746 /* kaopastaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A027D697226507EF00C81746 /* kaopastaTests.swift */; };
+		A027D6A3226507EF00C81746 /* kaopastaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A027D6A2226507EF00C81746 /* kaopastaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A027D694226507EF00C81746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A027D677226507EB00C81746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A027D67E226507EC00C81746;
+			remoteInfo = kaopasta;
+		};
+		A027D69F226507EF00C81746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A027D677226507EB00C81746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A027D67E226507EC00C81746;
+			remoteInfo = kaopasta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A027D67F226507EC00C81746 /* kaopasta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kaopasta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A027D682226507EC00C81746 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A027D684226507EC00C81746 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A027D687226507EC00C81746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A027D689226507EF00C81746 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A027D68C226507EF00C81746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A027D68E226507EF00C81746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A027D693226507EF00C81746 /* kaopastaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kaopastaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A027D697226507EF00C81746 /* kaopastaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kaopastaTests.swift; sourceTree = "<group>"; };
+		A027D699226507EF00C81746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A027D69E226507EF00C81746 /* kaopastaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kaopastaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A027D6A2226507EF00C81746 /* kaopastaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kaopastaUITests.swift; sourceTree = "<group>"; };
+		A027D6A4226507EF00C81746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A027D67C226507EC00C81746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A027D690226507EF00C81746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A027D69B226507EF00C81746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A027D676226507EB00C81746 = {
+			isa = PBXGroup;
+			children = (
+				A027D681226507EC00C81746 /* kaopasta */,
+				A027D696226507EF00C81746 /* kaopastaTests */,
+				A027D6A1226507EF00C81746 /* kaopastaUITests */,
+				A027D680226507EC00C81746 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A027D680226507EC00C81746 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A027D67F226507EC00C81746 /* kaopasta.app */,
+				A027D693226507EF00C81746 /* kaopastaTests.xctest */,
+				A027D69E226507EF00C81746 /* kaopastaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A027D681226507EC00C81746 /* kaopasta */ = {
+			isa = PBXGroup;
+			children = (
+				A027D682226507EC00C81746 /* AppDelegate.swift */,
+				A027D684226507EC00C81746 /* ViewController.swift */,
+				A027D686226507EC00C81746 /* Main.storyboard */,
+				A027D689226507EF00C81746 /* Assets.xcassets */,
+				A027D68B226507EF00C81746 /* LaunchScreen.storyboard */,
+				A027D68E226507EF00C81746 /* Info.plist */,
+			);
+			path = kaopasta;
+			sourceTree = "<group>";
+		};
+		A027D696226507EF00C81746 /* kaopastaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A027D697226507EF00C81746 /* kaopastaTests.swift */,
+				A027D699226507EF00C81746 /* Info.plist */,
+			);
+			path = kaopastaTests;
+			sourceTree = "<group>";
+		};
+		A027D6A1226507EF00C81746 /* kaopastaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A027D6A2226507EF00C81746 /* kaopastaUITests.swift */,
+				A027D6A4226507EF00C81746 /* Info.plist */,
+			);
+			path = kaopastaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A027D67E226507EC00C81746 /* kaopasta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A027D6A7226507EF00C81746 /* Build configuration list for PBXNativeTarget "kaopasta" */;
+			buildPhases = (
+				A027D67B226507EC00C81746 /* Sources */,
+				A027D67C226507EC00C81746 /* Frameworks */,
+				A027D67D226507EC00C81746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kaopasta;
+			productName = kaopasta;
+			productReference = A027D67F226507EC00C81746 /* kaopasta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A027D692226507EF00C81746 /* kaopastaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A027D6AA226507EF00C81746 /* Build configuration list for PBXNativeTarget "kaopastaTests" */;
+			buildPhases = (
+				A027D68F226507EF00C81746 /* Sources */,
+				A027D690226507EF00C81746 /* Frameworks */,
+				A027D691226507EF00C81746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A027D695226507EF00C81746 /* PBXTargetDependency */,
+			);
+			name = kaopastaTests;
+			productName = kaopastaTests;
+			productReference = A027D693226507EF00C81746 /* kaopastaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A027D69D226507EF00C81746 /* kaopastaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A027D6AD226507EF00C81746 /* Build configuration list for PBXNativeTarget "kaopastaUITests" */;
+			buildPhases = (
+				A027D69A226507EF00C81746 /* Sources */,
+				A027D69B226507EF00C81746 /* Frameworks */,
+				A027D69C226507EF00C81746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A027D6A0226507EF00C81746 /* PBXTargetDependency */,
+			);
+			name = kaopastaUITests;
+			productName = kaopastaUITests;
+			productReference = A027D69E226507EF00C81746 /* kaopastaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A027D677226507EB00C81746 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Esa Aikio";
+				TargetAttributes = {
+					A027D67E226507EC00C81746 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					A027D692226507EF00C81746 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = A027D67E226507EC00C81746;
+					};
+					A027D69D226507EF00C81746 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = A027D67E226507EC00C81746;
+					};
+				};
+			};
+			buildConfigurationList = A027D67A226507EB00C81746 /* Build configuration list for PBXProject "kaopasta" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A027D676226507EB00C81746;
+			productRefGroup = A027D680226507EC00C81746 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A027D67E226507EC00C81746 /* kaopasta */,
+				A027D692226507EF00C81746 /* kaopastaTests */,
+				A027D69D226507EF00C81746 /* kaopastaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A027D67D226507EC00C81746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A027D68D226507EF00C81746 /* LaunchScreen.storyboard in Resources */,
+				A027D68A226507EF00C81746 /* Assets.xcassets in Resources */,
+				A027D688226507EC00C81746 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A027D691226507EF00C81746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A027D69C226507EF00C81746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A027D67B226507EC00C81746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A027D685226507EC00C81746 /* ViewController.swift in Sources */,
+				A027D683226507EC00C81746 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A027D68F226507EF00C81746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A027D698226507EF00C81746 /* kaopastaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A027D69A226507EF00C81746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A027D6A3226507EF00C81746 /* kaopastaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A027D695226507EF00C81746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A027D67E226507EC00C81746 /* kaopasta */;
+			targetProxy = A027D694226507EF00C81746 /* PBXContainerItemProxy */;
+		};
+		A027D6A0226507EF00C81746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A027D67E226507EC00C81746 /* kaopasta */;
+			targetProxy = A027D69F226507EF00C81746 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A027D686226507EC00C81746 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A027D687226507EC00C81746 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A027D68B226507EF00C81746 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A027D68C226507EF00C81746 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A027D6A5226507EF00C81746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A027D6A6226507EF00C81746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A027D6A8226507EF00C81746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 299FP846PB;
+				INFOPLIST_FILE = kaopasta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = esaelmeri.net.kaopasta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A027D6A9226507EF00C81746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 299FP846PB;
+				INFOPLIST_FILE = kaopasta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = esaelmeri.net.kaopasta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A027D6AB226507EF00C81746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 299FP846PB;
+				INFOPLIST_FILE = kaopastaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = esaelmeri.net.kaopastaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kaopasta.app/kaopasta";
+			};
+			name = Debug;
+		};
+		A027D6AC226507EF00C81746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 299FP846PB;
+				INFOPLIST_FILE = kaopastaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = esaelmeri.net.kaopastaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kaopasta.app/kaopasta";
+			};
+			name = Release;
+		};
+		A027D6AE226507EF00C81746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 299FP846PB;
+				INFOPLIST_FILE = kaopastaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = esaelmeri.net.kaopastaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kaopasta;
+			};
+			name = Debug;
+		};
+		A027D6AF226507EF00C81746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 299FP846PB;
+				INFOPLIST_FILE = kaopastaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = esaelmeri.net.kaopastaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kaopasta;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A027D67A226507EB00C81746 /* Build configuration list for PBXProject "kaopasta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A027D6A5226507EF00C81746 /* Debug */,
+				A027D6A6226507EF00C81746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A027D6A7226507EF00C81746 /* Build configuration list for PBXNativeTarget "kaopasta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A027D6A8226507EF00C81746 /* Debug */,
+				A027D6A9226507EF00C81746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A027D6AA226507EF00C81746 /* Build configuration list for PBXNativeTarget "kaopastaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A027D6AB226507EF00C81746 /* Debug */,
+				A027D6AC226507EF00C81746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A027D6AD226507EF00C81746 /* Build configuration list for PBXNativeTarget "kaopastaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A027D6AE226507EF00C81746 /* Debug */,
+				A027D6AF226507EF00C81746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A027D677226507EB00C81746 /* Project object */;
+}
